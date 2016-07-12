@@ -8,6 +8,7 @@
 
 import UIKit
 
+//Creacion de class public para controlar el TextField que cree anteriormente y lo asocie al textfield
 public class TextInputTableView: UITableViewCell {
     
     @IBOutlet weak var myTextField: UITextField!
