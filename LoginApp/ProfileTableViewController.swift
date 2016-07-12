@@ -81,22 +81,22 @@ class ProfileTableViewController: UITableViewController {
                  case "gender":
                       cell?.configure(userDetail.objectForKey("gender") as? String, placeholder: "Gender")
                     case "age":
-                        cell?.configure(userDetail.objectForKey("bio") as? String, placeholder: "Age")
+                        cell?.configure(userDetail.objectForKey("age") as? String, placeholder: "Age")
                     case "phone":
-                        cell?.configure(userDetail.objectForKey("email") as? String, placeholder: "Phone")
+                        cell?.configure(userDetail.objectForKey("phone") as? String, placeholder: "Phone")
                     case "email":
-                        cell?.configure(userDetail.objectForKey("gender") as? String, placeholder: "Email")
+                        cell?.configure(userDetail.objectForKey("email") as? String, placeholder: "Email")
                     case "website":
-                        cell?.configure(userDetail.objectForKey("phone") as? String, placeholder: "Website")
+                        cell?.configure(userDetail.objectForKey("website") as? String, placeholder: "Website")
                     case "bio":
-                        cell?.configure(userDetail.objectForKey("website") as? String, placeholder: "Bio")
+                        cell?.configure(userDetail.objectForKey("bio") as? String, placeholder: "Bio")
                     default:
                        ""
                   } //end switch
                
               index+=1
            }
-           
+        
   })
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
